@@ -177,7 +177,6 @@ namespace WindowsFormsApp
                 //Json'a serileştirilecek ve gönderilecek Class
                 User user = new User
                 {
-                    Id = Convert.ToInt32(_selectedUserID),
                     FirstName = txtFirstName.Text,
                     LastName = txtLastName.Text,
                     Email = txtEmail.Text,
