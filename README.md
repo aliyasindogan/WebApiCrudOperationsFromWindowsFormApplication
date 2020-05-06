@@ -1,5 +1,5 @@
 # WebApiCrudOperationsFromWindowsFormApplication
-Windows Form uygulamasından Web Api Crud (Get,Post,Put,Delete) İşlemleri
+Windows Form uygulamasından .NET Core 3.1 Web Api Crud (Get,Post,Put,Delete) İşlemleri
 
 * DataAccess .NetStandart 2.0
 * WebAPI .NET Core 3.1
