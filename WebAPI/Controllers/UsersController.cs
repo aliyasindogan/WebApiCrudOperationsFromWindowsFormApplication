@@ -55,6 +55,19 @@ namespace WebAPI.Controllers
             return BadRequest(Messsages.MessageError);
         }
 
+        [HttpPost("add2")]
+        public IActionResult Add2(User user)
+        {
+            var result = _context.Users.Add(user);
+            _context.SaveChanges();
+            if (user != null)
+            {
+                return Ok(user);
+            }
+
+            return BadRequest(Messsages.MessageError);
+        }
+
         [HttpPost("update")]
         public IActionResult Update(User user)
         {
